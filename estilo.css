@@ -1,0 +1,83 @@
+body {
+    font-family: ARIAL, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    header {
+        background-color: rgb(206, 182, 228);
+        color: rgb(21, 21, 82);
+        padding: 10px;
+        text-align: center;
+    
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav li {
+        display: inline;
+        margin-right: 20px;
+    
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: rgb(197, 45, 235);
+        font-weight: bold;
+    }
+    
+    nav ul li a:hover { 
+        text-decoration: underline;
+    }
+    
+    .scarlet { 
+        padding: 20px;
+        background-color: rgb(191, 162, 230);
+        margin: 20px 0;
+    }
+    
+    .scarlet h2 {
+        margin-bottom: 15px;
+        color: rgb(14, 6, 49);
+    }
+    
+    .scarlet img {
+        max-width: 100;
+        height: auto;
+    }
+    
+    .ColorFavorito {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    
+    .PeliculaFavorita {
+     background-color: rgb(182, 138, 223);  
+      border: 1px solid rgb(231, 174, 227);
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        flex: 20px;
+        box-sizing: border-box;
+    }
+    
+    .ColorFavorito img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    footer {
+        background-color: aliceblue;
+        color: rgb(76, 0, 255);
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
